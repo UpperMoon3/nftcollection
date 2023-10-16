@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #result {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .choices button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="./block.js"></script>
+</head>
+<body>
+    <div>
+        <button id="connect" onclick="Connect()" style="position: absolute; left: 500px">Connect</button>
+    </div>
+    <div id="image-container" style="display: none;">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <!-- Add more image elements as needed -->
+    </div>
+</body>
+</html>
+
+
